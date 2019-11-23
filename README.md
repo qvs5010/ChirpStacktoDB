@@ -43,6 +43,28 @@ mongodbserver.net = the ip of your mongodb server
 
 socketioserver.net = the ip of the server wher the socket.io server is running (socketIOsrv.js) 
 
+How to run:
+--------------------
+[root@mqtt mqttjs]# node socketIOsrv.js
+
+[root@mqtt mqttjs]# node chirpTOdb.js
+
+How to run ast a deamon:
+--------------------
+Install "forever"
+
+sudo npm install forever --global
+
+To run
+
+[root@mqtt mqttjs]# forever start -c node socketIOsrv.js
+
+[root@mqtt mqttjs]# forever start -c node chirpTOdb.js
+
+to view if running
+
+[root@mqtt mqttjs]# forever list
+
 
 
 
