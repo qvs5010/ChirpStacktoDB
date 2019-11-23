@@ -65,7 +65,10 @@ to view if running
 
 [root@mqtt mqttjs]# forever list
 
-
+Tools:
+--------------------
+To View MongoDB data try Compass
+https://www.mongodb.com/download-center/compass
 
 
 ------------------------------------------------------------------------------
