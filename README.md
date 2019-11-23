@@ -30,7 +30,7 @@ What each file does
 ----------------------
 ViewData.html	- View Data on a webpage 
 
-chirpTOdb.js	- Chispstack to MongoDB app	28 minutes ago 
+chirpTOdb.js	- Chispstack to MongoDB app
 
 socketIOsrv.js - Socket.io Server to pass data to a webpage 
 
