@@ -49,7 +49,7 @@ How to run:
 
 [root@mqtt mqttjs]# node chirpTOdb.js
 
-How to run ast a deamon:
+How to run as a deamon:
 --------------------
 Install "forever"
 
